@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的生活</title>
+    <meta name="author" content="zhangxiaoyang"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+</head>
+<body>
+    <div class="box" data-id="1"></div>
+    <div class="box" data-id="2"></div>
+    <div class="box" data-id="3"></div>
+</body>
+<script type="text/javascript" src="//cdn.bootcss.com/require.js/2.1.22/require.min.js"></script>
+<script type="text/javascript" src="../../config.js"></script>
+<script>
+    requirejs(util.$source,function(){
+        requirejs(['pages/login/forget/controller']);
+    });
+</script>
+</html>
